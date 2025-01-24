@@ -1,12 +1,12 @@
 import React from "react";
-import search from "../../assets/search-icon-com.png";
+import calendary from "../../assets/calendary-icon-com.png";
 
-const Card1 = () => {
+const Card2 = () => {
   return (
     <div className="w-full max-w-sm md:max-w-md lg:max-w-lg bg-white border rounded-sm p-6 shadow-md text-center flex flex-col md:flex-row gap-x-4">
       {/* Icon Section */}
       <div className="flex justify-center items-center mb-4 md:mb-0 md:w-1/3">
-        <img src={search} alt="Search icon" className="w-12 md:w-16 lg:w-20" />
+        <img src={calendary} alt="Calendar icon" className="w-12 md:w-16 lg:w-20" />
       </div>
 
       {/* Text Section */}
@@ -28,4 +28,4 @@ const Card1 = () => {
   );
 };
 
-export default Card1;
+export default Card2;

@@ -29,5 +29,21 @@ code {
 *
 { 
  font-family: "Poppins", serif;
+ transition: all 0.3s;
+}
 
+.com-img
+{
+  background-image: url(./assets/com-image.png);
+  height: 100vh;
+  max-height: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+
+
+.card
+{
+  transform: scale(1.2);
 }
