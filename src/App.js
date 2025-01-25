@@ -5,6 +5,8 @@ import Home from './Pages/home/home'
 import News from './Pages/news/news'
 import Community from './Pages/community/community'
 import Univercities from './Pages/univercities/univercities'
+import Courses from './Pages/courses/courses'
+import Faq from './Pages/faq/faq'
 
 const App = () => {
   return (
@@ -15,7 +17,9 @@ const App = () => {
     <News/>
     <Community/>
     <Univercities/>
-    <Footer/>
+    <Courses/>
+    <Faq/>
+    <Footer/> 
   </div>
   )
 }
