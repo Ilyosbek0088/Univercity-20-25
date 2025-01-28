@@ -1,15 +1,14 @@
 import React from 'react'
 
-import Stallion from '../../components/ui/Stallion'
-import Covenant from '../../components/ui/Covenant'
+
 import Designer from '../../components/ui/designerCourse'
 import Science from '../../components/ui/scienceCourse'
 import Business from '../../components/ui/businessCourse'
 
 const Courses = () => {
   return (
-    <div className=' container w-full mt-10'>
-    <div className='flex justify-center items-center flex-col'>
+    <div className='  w-full max-md:scale-100 max-lg:scale-110 max-sm:scale-90 flex flex-col justify-center items-center mt-12'>
+    <div className=' container flex justify-center items-center flex-col'>
         <h1 className='text-[#36384E] font-[500] text-[20px] '>
         Most popular courses
         </h1>
@@ -17,7 +16,7 @@ const Courses = () => {
        <div className='mt-6 w-[133px] h-[12px] bg-[#E5B300] rounded-lg'></div>
 
     </div>
-<div className='flex'>
+<div className='flex container max-sm:flex-col max-sm:px-4'>
    <Designer/>
    <Science/>
    <Business/>

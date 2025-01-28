@@ -2,7 +2,7 @@ import React from 'react';
 
 const FooterMobile = () => {
   return (
-    <div className="md:hidden flex flex-col items-center bg-gray-700 text-white py-4">
+    <div className="md:hidden w-full flex flex-col items-center bg-gray-700 text-white py-4">
       <h2 className="text-base font-semibold">Subscribe</h2>
       <p className="text-xs text-center mb-3">
         Expert university advice, straight to your inbox.

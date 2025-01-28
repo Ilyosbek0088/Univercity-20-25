@@ -3,7 +3,7 @@ import photo from '../../assets/business.png'
 
 const Business = () => {
   return (
-    <div className='card container mt-16'>
+    <div className='card container mt-16  max-sm:w-full max-sm:items-center max-sm:justify-center max-sm:flex'>
         <div>
             <img src={photo}></img>
             <h1 className='text-[20px] font-[500]'>Business management</h1>

@@ -3,7 +3,7 @@ import calendary from '../../assets/calendary-icon-com.png'
 
 const Card2 = () => {
   return (
-    <div className="w-80 bg-[white] border gap-x-2 rounded-sm p-6 shadow-md text-center flex">
+    <div className="w-80 m-3 bg-[white] border gap-x-2 rounded-sm p-6 shadow-md text-center flex">
 
 {/* ong tomoni  */}
 

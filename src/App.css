@@ -39,3 +39,39 @@
     transform: rotate(360deg);
   }
 }
+.mediafaq
+{
+  
+  @media (max-width: 810px) {    
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        max-width: 36rem
+    
+}
+}
+
+
+/* .community
+{
+  @media (max-width: 640px) {
+    
+        background-color: black;
+        
+}
+} */
+
+/* .card-flex 
+{
+  @media (max-width: 640px) {
+    
+    flex-direction: column;
+    
+}
+} */
+
+.com-img
+{
+  background-size:cover;
+}
